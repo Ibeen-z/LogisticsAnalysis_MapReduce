@@ -3,13 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve ",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@jiaminghi/data-view": "^2.10.0",
+    "axios": "^1.3.5",
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "echarts": "^4.9.0",
+    "vue": "^2.6.14",
+    "vue-bmap-gl": "^0.1.1",
+    "vue-jsonp": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
